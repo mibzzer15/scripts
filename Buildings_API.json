@@ -1,6 +1,8 @@
 [{
 		"id": 0,
         "caption": "Fire station",
+        "class": ["fire_stations"],
+        "class_alias": ["Fire Stations"],
         "extensions": [{
                 "caption": "Ambulance Extension",
                 "id": 0
@@ -27,6 +29,8 @@
     }, {
 		"id": 3,
         "caption": "Ambulance station",
+	"class": ["ems_stations"],
+        "class_alias": ["EMS Stations"],
         "extensions": [{
                 "caption": "Mass Casualty Trailer Extension",
                 "id": 0
@@ -35,6 +39,8 @@
     }, {
         "id": 5,
         "caption": "Police station",
+	"class": ["police_stations"],
+        "class_alias": ["Police Stations"],
         "extensions": [{
                 "caption": "Game Warden Office",
                 "id": 11
@@ -48,7 +54,9 @@
         ]
     }, {
         "id": 13,
-		"caption": "Fire station (Small station) ",
+	"caption": "Fire station (Small station) ",
+	"class": ["fire_stations"],
+        "class_alias": ["Fire Stations"],
         "extensions": [{
                 "caption": "Ambulance Extension",
                 "id": 0
@@ -72,6 +80,8 @@
     }, {
         "id": 15,
         "caption": "Police station (Small station)",
+	"class": ["police_stations"],
+        "class_alias": ["Police Stations"],
         "extensions": [{
                 "caption": "Game Warden Office",
                 "id": 11
@@ -86,6 +96,8 @@
     }, {
 		"id": 16,
         "caption": "Ambulance station (Small station)",
+	"class": ["ems_stations"],
+        "class_alias": ["EMS Stations"],
         "extensions": [{
                 "caption": "Mass Casualty Trailer Extension",
                 "id": 0
