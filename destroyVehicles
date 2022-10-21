@@ -3,7 +3,7 @@
 // @version      1.0.2
 // @description  send selected vehicles to the scrap heap
 // @author       DrTraxx and translate by Mibzzer15
-// @match        https://www.missionchief.com/
+// @match        https://*www.missionchief.com/buildings/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @grant        none
 // ==/UserScript==
