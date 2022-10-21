@@ -6,65 +6,65 @@
         "credits": 100000,
         "extensions": [{
                 "caption": "Ambulance Extension",
-				"id": 0,
                 "coins": 20,
                 "credits": 100000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 0,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [5, 15, 20, 28, 27, 29, 48, 49, 50, 57, 58, 59, 60, 61]
             }, {
                 "caption": "Airport Extension",
-				"id": 1,
                 "coins": 20,
                 "credits": 100000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 1,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [17]
             }, {
                 "caption": "Forestry Expansion",
-				"id": 3,
                 "coins": 13,
                 "credits": 50000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 3,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [30, 31, 32, 38, 39, 40]
             }, {
                 "caption": "Fire Investigation Extension",
-				"id": 4,
                 "coins": 15,
                 "credits": 150000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 4,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [62, 63]
             }, {
                 "caption": "Foam Extension",
-				"id": 5,
                 "coins": 15,
                 "credits": 100000,
                 "duration": "5 Days",
                 "givesParkingLots": 0,
+                "id": 5,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [64, 65]
             }, {
                 "caption": "Lifeguard Extension",
-				"id": 6,
                 "coins": 15,
                 "credits": 100000,
                 "duration": "5 Days",
                 "givesParkingLots": 0,
+                "id": 6,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [66, 67, 68, 73]
             }, {
                 "caption": "Water Rescue Expansion",
-				"id": 2,
                 "coins": 20,
                 "credits": 100000,
                 "duration": "7 Days",
                 "givesParkingLots": 1,
+                "id": 2,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [21, 22]
             }
@@ -100,98 +100,98 @@
         "extensions": [{
                 "cannotDisable": true,
                 "caption": "Prison cell",
-				"id": 0,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 0,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 1,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 1,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 2,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 2,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 3,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 3,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 4,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 4,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 5,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 5,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 6,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 6,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 7,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 7,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 8,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 8,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 9,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 9,
                 "newCells": 1
-            }{
+            }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 10,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 10,
                 "newCells": 1
-            }{
+            }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 11,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 11,
                 "newCells": 1
             }
         ],
@@ -241,56 +241,56 @@
         "credits": 50000,
         "extensions": [{
                 "caption": "Ambulance Extension",
-				"id": 0,
                 "coins": 20,
                 "credits": 100000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 0,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [5, 15, 20, 27, 28, 29, 48, 49, 50, 57, 58, 59, 60, 61]
             }, {
                 "caption": "Airport Extension",
-				"id": 1,
                 "coins": 20,
                 "credits": 100000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 1,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [17]
             }, {
                 "caption": "Forestry Expansion",
-				"id": 3,
                 "coins": 13,
                 "credits": 50000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 3,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [30, 31, 32, 38, 39, 40]
             }, {
                 "caption": "Fire Investigation Extension",
-				"id": 4,
                 "coins": 15,
                 "credits": 150000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 4,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [62, 63]
             }, {
                 "caption": "Foam Extension",
-				"id": 5,
                 "coins": 15,
                 "credits": 100000,
                 "duration": "5 Days",
                 "givesParkingLots": 0,
+                "id": 5,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [64, 65]
             }, {
                 "caption": "Water Rescue Expansion",
-				"id": 2,
                 "coins": 20,
                 "credits": 100000,
                 "duration": "7 Days",
                 "givesParkingLots": 1,
+                "id": 2,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [21, 22]
             }
@@ -337,30 +337,30 @@
         "credits": 50000,
         "extensions": [{
                 "caption": "Game Warden Office",
-				"id": 11,
                 "coins": 20,
                 "credits": 20000,
                 "duration": "3 Days",
                 "givesParkingLots": 0,
+                "id": 11,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [56]
             }, {
                 "caption": "Water Police Expansion",
-				"id": 10,
                 "coins": 35,
                 "credits": 200000,
                 "duration": "7 Days",
                 "givesParkingLots": 2,
+                "id": 10,
                 "isVehicleExtension": true,
                 "parkingLotReservations": [[55], [55]],
                 "unlocksVehicleTypes": [55]
             }, {
                 "caption": "Additional Patrol Boat Parking Spaces",
-				"id": 12,
                 "coins": 25,
                 "credits": 100000,
                 "duration": "5 Days",
                 "givesParkingLots": 2,
+                "id": 12,
                 "isVehicleExtension": true,
                 "parkingLotReservations": [[55], [55]],
                 "requiredExtensions": [10]
@@ -384,11 +384,11 @@
         "credits": 100000,
         "extensions": [{
                 "caption": "Mass Casualty Trailer Extension",
-				"id": 0,
                 "coins": 25,
                 "credits": 200000,
                 "duration": "7 Days",
                 "givesParkingLots": 2,
+                "id": 0,
                 "isVehicleExtension": true,
                 "parkingLotReservations": [[57, 58], [57, 58]],
                 "unlocksVehicleTypes": [41, 57, 58]
@@ -427,20 +427,20 @@
         "credits": 500000,
         "extensions": [{
                 "caption": "DEA Expansion",
-				"id": 0,
                 "coins": 35,
                 "credits": 200000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 0,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [51, 52]
             }, {
                 "caption": "ATF Expansion",
-				"id": 1,
                 "coins": 35,
                 "credits": 200000,
                 "duration": "7 Days",
                 "givesParkingLots": 0,
+                "id": 1,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [53, 54]
             }
@@ -498,72 +498,72 @@
         "extensions": [{
                 "cannotDisable": true,
                 "caption": "General Internal",
-				"id": 0,
                 "coins": 10,
                 "credits": 10000,
-                "duration": "7 Days"
+                "duration": "7 Days",
+                "id": 0
             }, {
                 "cannotDisable": true,
                 "caption": "General Surgeon",
-				"id": 1,
                 "coins": 10,
                 "credits": 10000,
-                "duration": "7 Days"
+                "duration": "7 Days",
+                "id": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Gynecology",
-				"id": 2,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 2,
                 "requiredExtensions": [1]
             }, {
                 "cannotDisable": true,
                 "caption": "Urology",
-				"id": 3,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 3,
                 "requiredExtensions": [1]
             }, {
                 "cannotDisable": true,
                 "caption": "Traumatology",
-				"id": 4,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 4,
                 "requiredExtensions": [1]
             }, {
                 "cannotDisable": true,
                 "caption": "Neurology",
-				"id": 5,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 5,
                 "requiredExtensions": [0]
             }, {
                 "cannotDisable": true,
                 "caption": "Neurosurgery",
-				"id": 6,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 6,
                 "requiredExtensions": [1]
             }, {
                 "cannotDisable": true,
                 "caption": "Cardiology",
-				"id": 7,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 7,
                 "requiredExtensions": [0]
             }, {
                 "cannotDisable": true,
                 "caption": "Cardiac Surgery",
-				"id": 8,
                 "coins": 15,
                 "credits": 70000,
                 "duration": "7 Days",
+                "id": 8,
                 "requiredExtensions": [1]
             }
         ],
@@ -680,57 +680,57 @@
         "credits": 1000000,
         "extensions": [{
                 "caption": "Helicopter Hangar",
-				"id": 0,
                 "coins": 1,
                 "credits": 10000,
                 "givesParkingLots": 1,
+                "id": 0,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [71]
             }, {
                 "caption": "Plane Hangar",
-				"id": 1,
                 "coins": 20,
                 "credits": 100000,
                 "givesParkingLots": 1,
+                "id": 1,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [72]
             }, {
                 "caption": "Additional Helicopter Hangar",
-				"id": 2,
                 "coins": 15,
                 "credits": 200000,
                 "duration": "4 Days",
                 "givesParkingLots": 1,
+                "id": 2,
                 "isVehicleExtension": true,
                 "requiredExtensions": [0],
                 "unlocksVehicleTypes": [71]
             }, {
                 "caption": "Additional Plane Hangar",
-				"id": 3,
                 "coins": 15,
                 "credits": 150000,
                 "duration": "4 Days",
                 "givesParkingLots": 1,
+                "id": 3,
                 "isVehicleExtension": true,
                 "requiredExtensions": [1],
                 "unlocksVehicleTypes": [72]
             }, {
                 "caption": "Additional Helicopter Hangar",
-				"id": 4,
                 "coins": 15,
                 "credits": 200000,
                 "duration": "4 Days",
                 "givesParkingLots": 1,
+                "id": 4,
                 "isVehicleExtension": true,
                 "requiredExtensions": [2],
                 "unlocksVehicleTypes": [71]
             }, {
                 "caption": "Additional Plane Hangar",
-				"id": 5,
                 "coins": 15,
                 "credits": 200000,
                 "duration": "4 Days",
                 "givesParkingLots": 1,
+                "id": 5,
                 "isVehicleExtension": true,
                 "requiredExtensions": [3],
                 "unlocksVehicleTypes": [72]
@@ -831,109 +831,109 @@
         "extensions": [{
                 "cannotDisable": true,
                 "caption": "Prison cell",
-				"id": 0,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 0,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 1,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 1,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 2,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 2,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 3,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 3,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 4,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 4,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 5,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 5,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 6,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 6,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 7,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 7,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 8,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 8,
                 "newCells": 1
             }, {
                 "cannotDisable": true,
                 "caption": "Additional cell",
-				"id": 9,
                 "coins": 5,
                 "credits": 25000,
                 "duration": "7 Days",
+                "id": 9,
                 "newCells": 1
             }, {
                 "caption": "Game Warden Office",
-				"id": 11,
                 "coins": 20,
                 "credits": 20000,
                 "duration": "3 Days",
                 "givesParkingLots": 0,
+                "id": 11,
                 "isVehicleExtension": true,
                 "unlocksVehicleTypes": [56]
             }, {
                 "caption": "Water Police Expansion",
-				"id": 10,
                 "coins": 35,
                 "credits": 200000,
                 "duration": "7 Days",
                 "givesParkingLots": 2,
+                "id": 10,
                 "isVehicleExtension": true,
                 "parkingLotReservations": [[55], [55]],
                 "unlocksVehicleTypes": [55]
             }, {
                 "caption": "Additional Patrol Boat Parking Spaces",
-				"id": 12,
                 "coins": 25,
                 "credits": 100000,
                 "duration": "5 Days",
                 "givesParkingLots": 2,
+                "id": 12,
                 "isVehicleExtension": true,
                 "parkingLotReservations": [[55], [55]],
                 "requiredExtensions": [10]
