@@ -1,105 +1,105 @@
 [{
 		"id": 0,
-        "caption": "Fire station",
+        "name": "Fire station",
         "class": ["fire_stations"],
         "class_alias": ["Fire Stations"],
         "extensions": [{
-                "caption": "Ambulance Extension",
+                "name": "Ambulance Extension",
                 "id": 0
             }, {
-                "caption": "Airport Extension",
+                "name": "Airport Extension",
                 "id": 1
             }, {
-                "caption": "Forestry Expansion",
+                "name": "Forestry Expansion",
                 "id": 3
             }, {
-                "caption": "Fire Investigation Extension",
+                "name": "Fire Investigation Extension",
                 "id": 4
             }, {
-                "caption": "Foam Extension",
+                "name": "Foam Extension",
                 "id": 5
             }, {
-                "caption": "Lifeguard Extension",
+                "name": "Lifeguard Extension",
                 "id": 6
             }, {
-                "caption": "Water Rescue Expansion",
+                "name": "Water Rescue Expansion",
                 "id": 2
             }
         ]
     }, {
 		"id": 3,
-        "caption": "Ambulance station",
+        "name": "Ambulance station",
 	"class": ["ems_stations"],
         "class_alias": ["EMS Stations"],
         "extensions": [{
-                "caption": "Mass Casualty Trailer Extension",
+                "name": "Mass Casualty Trailer Extension",
                 "id": 0
             }
         ]
     }, {
         "id": 5,
-        "caption": "Police station",
+        "name": "Police station",
 	"class": ["police_stations"],
         "class_alias": ["Police Stations"],
         "extensions": [{
-                "caption": "Game Warden Office",
+                "name": "Game Warden Office",
                 "id": 11
             }, {
-                "caption": "Water Police Expansion",
+                "name": "Water Police Expansion",
                 "id": 10
             }, {
-                "caption": "Additional Patrol Boat Parking Spaces",
+                "name": "Additional Patrol Boat Parking Spaces",
                 "id": 12
             }
         ]
     }, {
         "id": 13,
-	"caption": "Fire station (Small station) ",
+	"name": "Fire station (Small station) ",
 	"class": ["fire_stations"],
         "class_alias": ["Fire Stations"],
         "extensions": [{
-                "caption": "Ambulance Extension",
+                "name": "Ambulance Extension",
                 "id": 0
             }, {
-                "caption": "Airport Extension",
+                "name": "Airport Extension",
                 "id": 1
             }, {
-                "caption": "Forestry Expansion",
+                "name": "Forestry Expansion",
                 "id": 3
             }, {
-                "caption": "Fire Investigation Extension",
+                "name": "Fire Investigation Extension",
                 "id": 4
             }, {
-                "caption": "Foam Extension",
+                "name": "Foam Extension",
                 "id": 5
             }, {
-                "caption": "Water Rescue Expansion",
+                "name": "Water Rescue Expansion",
                 "id": 2
             }
         ]
     }, {
         "id": 15,
-        "caption": "Police station (Small station)",
+        "name": "Police station (Small station)",
 	"class": ["police_stations"],
         "class_alias": ["Police Stations"],
         "extensions": [{
-                "caption": "Game Warden Office",
+                "name": "Game Warden Office",
                 "id": 11
             }, {
-                "caption": "Water Police Expansion",
+                "name": "Water Police Expansion",
                 "id": 10
             }, {
-                "caption": "Additional Patrol Boat Parking Spaces",
+                "name": "Additional Patrol Boat Parking Spaces",
                 "id": 12
             }
         ]
     }, {
 		"id": 16,
-        "caption": "Ambulance station (Small station)",
+        "name": "Ambulance station (Small station)",
 	"class": ["ems_stations"],
         "class_alias": ["EMS Stations"],
         "extensions": [{
-                "caption": "Mass Casualty Trailer Extension",
+                "name": "Mass Casualty Trailer Extension",
                 "id": 0
             }
         ]
