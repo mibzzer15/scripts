@@ -1,0 +1,95 @@
+[{
+		"id": 0,
+        "caption": "Fire station",
+        "extensions": [{
+                "caption": "Ambulance Extension",
+                "id": 0
+            }, {
+                "caption": "Airport Extension",
+                "id": 1
+            }, {
+                "caption": "Forestry Expansion",
+                "id": 3
+            }, {
+                "caption": "Fire Investigation Extension",
+                "id": 4
+            }, {
+                "caption": "Foam Extension",
+                "id": 5
+            }, {
+                "caption": "Lifeguard Extension",
+                "id": 6
+            }, {
+                "caption": "Water Rescue Expansion",
+                "id": 2
+            }
+        ]
+    }, {
+		"id": 3,
+        "caption": "Ambulance station",
+        "extensions": [{
+                "caption": "Mass Casualty Trailer Extension",
+                "id": 0
+            }
+        ]
+    }, {
+        "id": 5,
+        "caption": "Police station",
+        "extensions": [{
+                "caption": "Game Warden Office",
+                "id": 11
+            }, {
+                "caption": "Water Police Expansion",
+                "id": 10
+            }, {
+                "caption": "Additional Patrol Boat Parking Spaces",
+                "id": 12
+            }
+        ]
+    }, {
+        "id": 13,
+		"caption": "Fire station (Small station) ",
+        "extensions": [{
+                "caption": "Ambulance Extension",
+                "id": 0
+            }, {
+                "caption": "Airport Extension",
+                "id": 1
+            }, {
+                "caption": "Forestry Expansion",
+                "id": 3
+            }, {
+                "caption": "Fire Investigation Extension",
+                "id": 4
+            }, {
+                "caption": "Foam Extension",
+                "id": 5
+            }, {
+                "caption": "Water Rescue Expansion",
+                "id": 2
+            }
+        ]
+    }, {
+        "id": 15,
+        "caption": "Police station (Small station)",
+        "extensions": [{
+                "caption": "Game Warden Office",
+                "id": 11
+            }, {
+                "caption": "Water Police Expansion",
+                "id": 10
+            }, {
+                "caption": "Additional Patrol Boat Parking Spaces",
+                "id": 12
+            }
+        ]
+    }, {
+		"id": 16,
+        "caption": "Ambulance station (Small station)",
+        "extensions": [{
+                "caption": "Mass Casualty Trailer Extension",
+                "id": 0
+            }
+        ]
+    }
+]
