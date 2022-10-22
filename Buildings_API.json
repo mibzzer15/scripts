@@ -1,107 +1,120 @@
 [{
-		"id": 0,
-        "name": "Fire station",
         "class": ["fire_stations"],
         "class_alias": ["Fire Stations"],
         "extensions": [{
-                "name": "Ambulance Extension",
-                "id": 0
+                "id": 0,
+                "name": "Ambulance Extension"
             }, {
-                "name": "Airport Extension",
-                "id": 1
+                "id": 1,
+                "name": "Airport Extension"
             }, {
-                "name": "Forestry Expansion",
-                "id": 3
+                "id": 3,
+                "name": "Forestry Expansion"
             }, {
-                "name": "Fire Investigation Extension",
-                "id": 4
+                "id": 4,
+                "name": "Fire Investigation Extension"
             }, {
-                "name": "Foam Extension",
-                "id": 5
+                "id": 5,
+                "name": "Foam Extension"
             }, {
-                "name": "Lifeguard Extension",
-                "id": 6
+                "id": 6,
+                "name": "Lifeguard Extension"
             }, {
-                "name": "Water Rescue Expansion",
-                "id": 2
+                "id": 2,
+                "name": "Water Rescue Expansion"
             }
-        ]
+        ],
+        "id": 0,
+        "name": "Fire station"
     }, {
-		"id": 3,
-        "name": "Ambulance station",
-	"class": ["ems_stations"],
+        "class": ["ems_stations"],
         "class_alias": ["EMS Stations"],
         "extensions": [{
-                "name": "Mass Casualty Trailer Extension",
-                "id": 0
+                "id": 0,
+                "name": "Mass Casualty Trailer Extension"
             }
-        ]
+        ],
+        "id": 3,
+        "name": "Ambulance station"
     }, {
-        "id": 5,
-        "name": "Police station",
-	"class": ["police_stations"],
+        "class": ["police_stations"],
         "class_alias": ["Police Stations"],
         "extensions": [{
-                "name": "Game Warden Office",
-                "id": 11
+                "id": 11,
+                "name": "Game Warden Office"
             }, {
-                "name": "Water Police Expansion",
-                "id": 10
+                "id": 10,
+                "name": "Water Police Expansion"
             }, {
-                "name": "Additional Patrol Boat Parking Spaces",
-                "id": 12
+                "id": 12,
+                "name": "Additional Patrol Boat Parking Spaces"
             }
-        ]
+        ],
+        "id": 5,
+        "name": "Police station"
     }, {
-        "id": 13,
-	"name": "Fire station (Small station) ",
-	"class": ["fire_stations"],
+        "class": ["fire_stations"],
         "class_alias": ["Fire Stations"],
         "extensions": [{
-                "name": "Ambulance Extension",
-                "id": 0
+                "id": 0,
+                "name": "Ambulance Extension"
             }, {
-                "name": "Airport Extension",
-                "id": 1
+                "id": 1,
+                "name": "Airport Extension"
             }, {
-                "name": "Forestry Expansion",
-                "id": 3
+                "id": 3,
+                "name": "Forestry Expansion"
             }, {
-                "name": "Fire Investigation Extension",
-                "id": 4
+                "id": 4,
+                "name": "Fire Investigation Extension"
             }, {
-                "name": "Foam Extension",
-                "id": 5
+                "id": 5,
+                "name": "Foam Extension"
             }, {
-                "name": "Water Rescue Expansion",
-                "id": 2
+                "id": 2,
+                "name": "Water Rescue Expansion"
             }
-        ]
+        ],
+        "id": 13,
+        "name": "Fire station (Small station) "
     }, {
-        "id": 15,
-        "name": "Police station (Small station)",
-	"class": ["police_stations"],
+        "class": ["police_stations"],
         "class_alias": ["Police Stations"],
         "extensions": [{
-                "name": "Game Warden Office",
-                "id": 11
+                "id": 11,
+                "name": "Game Warden Office"
             }, {
-                "name": "Water Police Expansion",
-                "id": 10
+                "id": 10,
+                "name": "Water Police Expansion"
             }, {
-                "name": "Additional Patrol Boat Parking Spaces",
-                "id": 12
+                "id": 12,
+                "name": "Additional Patrol Boat Parking Spaces"
             }
-        ]
+        ],
+        "id": 15,
+        "name": "Police station (Small station)"
     }, {
-		"id": 16,
-        "name": "Ambulance station (Small station)",
-	"class": ["ems_stations"],
+        "class": ["ems_stations"],
         "class_alias": ["EMS Stations"],
         "extensions": [{
-                "name": "Mass Casualty Trailer Extension",
-                "id": 0
+                "id": 0,
+                "name": "Mass Casualty Trailer Extension"
             }
-        ]
+        ],
+        "id": 16,
+        "name": "Ambulance station (Small station)"
+    }, {
+        "class": ["federal_stations"],
+        "class_alias": ["Federal Police Stations"],
+        "extensions": [{
+                "id": 0,
+                "name": "DEA Expansion"
+            }, {
+                "id": 1,
+                "name": "ATF Expansion"
+            }
+        ],
+        "id": 18,
+        "name": "Federal Police Station"
     }
 ]
