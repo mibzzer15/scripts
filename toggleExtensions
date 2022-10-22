@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         toggleExtensions
+// @name         toggleExtensionsTest
 // @version      1.0.0
 // @description  Completely (de)activate extensions of buildings
 // @author       DrTraxx and translate by Mibzzer15
@@ -11,8 +11,8 @@
 (async function () {
 
     const aBuildings = await $.getJSON("/api/buildings"),
-        aBuildingTypes = await $.getJSON("https://raw.githubusercontent.com/mibzzer15/scripts/main/Buildings_API.json"),
-        noActivailableExtensions = ["Abrollbehälter-Stellplatz", "Großwache", "Zelle"];
+          aBuildingTypes = await $.getJSON("https://raw.githubusercontent.com/mibzzer15/scripts/main/Buildings_API.json"),
+          noActivailableExtensions = ["Abrollbehälter-Stellplatz", "Großwache", "Zelle"];
 
     let targetBuildings;
 
@@ -37,7 +37,7 @@
 
     $("body")
         .prepend(
-            `<div class="modal fade bd-example-modal-lg" id="toExModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        `<div class="modal fade bd-example-modal-lg" id="toExModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -74,7 +74,7 @@
 
         targetBuildings = aBuildings.filter(b => b.building_type === buildingType.id);
 
-        let modalBodyHtml = `<h4>${ buildingType.name } - ${ targetBuildings.length } building</h4><br><br>`;
+        let modalBodyHtml = `<h4>${ buildingType.name } - ${ targetBuildings.length } buildings</h4><br><br>`;
 
         for (const extension of buildingType.extensions) {
             if (!noActivailableExtensions.includes(extension.name)) {
@@ -106,7 +106,7 @@
         for (const building of targetBuildings) {
             const searchedExtension = building.extensions.find(e => e.type_id == extensionId);
             if (searchedExtension && searchedExtension.available) {
-                if (searchedExtension.enabled !== enable) {
+                if (searchedExtension.enable !== enable) {
                     toggleActivityBuildings.push(building.id);
                 }
             }
@@ -125,7 +125,7 @@
         for (var i in toggleActivityBuildings) {
             count++;
             const percent = Math.round(count / toggleActivityBuildings.length * 100),
-                e = toggleActivityBuildings[i];
+                  e = toggleActivityBuildings[i];
             $(`#to_ex_extension_${ extensionId }`)
                 .attr("aria-valuenow", count)
                 .css({ "width": percent + "%" })
@@ -141,7 +141,7 @@
 
     $("body").on("click", ".to_ex_choose", function () {
         const $this = $(this),
-            target = $this.attr("target");
+              target = $this.attr("target");
 
         if (target === "rth") {
             buildModalHtml(aBuildingTypes.find(t => t.id === 5));
@@ -150,12 +150,13 @@
         } else {
             buildModalHtml(aBuildingTypes.find(t => t.class[0] === target));
         }
-    });
+    }
+                );
 
     $("body").on("click", ".to_ex_toggle", function () {
         const $this = $(this),
-            extensionId = +$this.attr("extension_id"),
-            enable = $this.text() === "activate" ? true : false;
+              extensionId = +$this.attr("extension_id"),
+              enable = $this.text() === "activate" ? true : false;
 
         if ($this.attr("disabled") === "disabled") return;
 
