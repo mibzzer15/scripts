@@ -5,3 +5,4 @@ destroyVehicles - Works only with LSSM disabled / able to delete vehicles easily
 shareBuildings - works / share buildings like prison or hospitals with alliance<br>
 toggleExtensions - Works? / (de)activate extensions en masse<br>
 staffAssistant - works / hires personnel in the individual station view<br>
+LSS-Alliance-Distance - works with LSSM disabled / Shows how many credits your alliance is away from other alliances
