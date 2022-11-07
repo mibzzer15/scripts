@@ -1,120 +1,211 @@
-[{
-        "class": ["fire_stations"],
-        "class_alias": ["Fire Stations"],
-        "extensions": [{
-                "id": 0,
-                "name": "Ambulance Extension"
-            }, {
-                "id": 1,
-                "name": "Airport Extension"
-            }, {
-                "id": 3,
-                "name": "Forestry Expansion"
-            }, {
-                "id": 4,
-                "name": "Fire Investigation Extension"
-            }, {
-                "id": 5,
-                "name": "Foam Extension"
-            }, {
-                "id": 6,
-                "name": "Lifeguard Extension"
-            }, {
-                "id": 2,
-                "name": "Water Rescue Expansion"
+[
+    {
+    "class":
+        [
+        "fire_stations"
+        ],
+    "class_alias":
+        [
+        "Fire Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 0,
+            "name": "Ambulance Extension"
+            },
+            {
+            "id": 1,
+            "name": "Airport Extension"
+            },
+            {
+            "id": 3,
+            "name": "Forestry Expansion"
+            },
+            {
+            "id": 4,
+            "name": "Fire Investigation Extension"
+            },
+            {
+            "id": 5,
+            "name": "Foam Extension"
+            },
+            {
+            "id": 6,
+            "name": "Lifeguard Extension"
+            },
+            {
+            "id": 2,
+            "name": "Water Rescue Expansion"
             }
         ],
-        "id": 0,
-        "name": "Fire station"
-    }, {
-        "class": ["ems_stations"],
-        "class_alias": ["EMS Stations"],
-        "extensions": [{
-                "id": 0,
-                "name": "Mass Casualty Trailer Extension"
+    "id": 0,
+    "name": "Fire station"
+    },
+    {
+    "class":
+        [
+        "ems_stations"
+        ],
+    "class_alias":
+        [
+        "EMS Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 0,
+            "name": "Mass Casualty Trailer Extension"
             }
         ],
-        "id": 3,
-        "name": "Ambulance station"
-    }, {
-        "class": ["police_stations"],
-        "class_alias": ["Police Stations"],
-        "extensions": [{
-                "id": 11,
-                "name": "Game Warden Office"
-            }, {
-                "id": 10,
-                "name": "Water Police Expansion"
-            }, {
-                "id": 12,
-                "name": "Additional Patrol Boat Parking Spaces"
+    "id": 3,
+    "name": "Ambulance station"
+    },
+    {
+    "class":
+        [
+        "police_stations"
+        ],
+    "class_alias":
+        [
+        "Police Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 11,
+            "name": "Game Warden Office"
+            },
+            {
+            "id": 10,
+            "name": "Water Police Expansion"
+            },
+            {
+            "id": 12,
+            "name": "Additional Patrol Boat Parking Spaces"
             }
         ],
-        "id": 5,
-        "name": "Police station"
-    }, {
-        "class": ["fire_stations"],
-        "class_alias": ["Fire Stations"],
-        "extensions": [{
-                "id": 0,
-                "name": "Ambulance Extension"
-            }, {
-                "id": 1,
-                "name": "Airport Extension"
-            }, {
-                "id": 3,
-                "name": "Forestry Expansion"
-            }, {
-                "id": 4,
-                "name": "Fire Investigation Extension"
-            }, {
-                "id": 5,
-                "name": "Foam Extension"
-            }, {
-                "id": 2,
-                "name": "Water Rescue Expansion"
+    "id": 5,
+    "name": "Police station"
+    },
+    {
+    "class":
+        [
+        "fire_stations"
+        ],
+    "class_alias":
+        [
+        "Fire Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 0,
+            "name": "Ambulance Extension"
+            },
+            {
+            "id": 1,
+            "name": "Airport Extension"
+            },
+            {
+            "id": 3,
+            "name": "Forestry Expansion"
+            },
+            {
+            "id": 4,
+            "name": "Fire Investigation Extension"
+            },
+            {
+            "id": 5,
+            "name": "Foam Extension"
+            },
+            {
+            "id": 2,
+            "name": "Water Rescue Expansion"
             }
         ],
-        "id": 13,
-        "name": "Fire station (Small station) "
-    }, {
-        "class": ["police_stations"],
-        "class_alias": ["Police Stations"],
-        "extensions": [{
-                "id": 11,
-                "name": "Game Warden Office"
-            }, {
-                "id": 10,
-                "name": "Water Police Expansion"
-            }, {
-                "id": 12,
-                "name": "Additional Patrol Boat Parking Spaces"
+    "id": 13,
+    "name": "Fire station (Small station) "
+    },
+    {
+    "class":
+        [
+        "police_stations"
+        ],
+    "class_alias":
+        [
+        "Police Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 11,
+            "name": "Game Warden Office"
+            },
+            {
+            "id": 10,
+            "name": "Water Police Expansion"
+            },
+            {
+            "id": 12,
+            "name": "Additional Patrol Boat Parking Spaces"
             }
         ],
-        "id": 15,
-        "name": "Police station (Small station)"
-    }, {
-        "class": ["ems_stations"],
-        "class_alias": ["EMS Stations"],
-        "extensions": [{
-                "id": 0,
-                "name": "Mass Casualty Trailer Extension"
+    "id": 15,
+    "name": "Police station (Small station)"
+    },
+    {
+    "class":
+        [
+        "ems_stations"
+        ],
+    "class_alias":
+        [
+        "EMS Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 0,
+            "name": "Mass Casualty Trailer Extension"
             }
         ],
-        "id": 16,
-        "name": "Ambulance station (Small station)"
-    }, {
-        "class": ["federal_stations"],
-        "class_alias": ["Federal Police Stations"],
-        "extensions": [{
-                "id": 0,
-                "name": "DEA Expansion"
-            }, {
-                "id": 1,
-                "name": "ATF Expansion"
+    "id": 16,
+    "name": "Ambulance station (Small station)"
+    },
+    {
+    "class":
+        [
+        "federal_stations"
+        ],
+    "class_alias":
+        [
+        "Federal Police Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 0,
+            "name": "DEA Expansion"
+            },
+            {
+            "id": 1,
+            "name": "ATF Expansion"
             }
         ],
-        "id": 18,
-        "name": "Federal Police Station"
+    "id": 18,
+    "name": "Federal Police Station"
+    },
+    {
+    "class":
+        [
+        "dispatch_centers"
+        ],
+    "class_alias":
+        [
+        "Dispatch Center"
+        ],
+    "id": 1,
+    "name": "Dispatch Center"
     }
 ]
