@@ -1,14 +1,10 @@
 // ==UserScript==
 // @name         Next Building Price
 // @namespace    https://www.leitstellenspiel.de/
-// @version      1.1
+// @version      1.2
 // @description  Calculates next price of Building
 // @author       Lennard[TFD]
-// @match        https://www.leitstellenspiel.de/
 // @match        https://www.missionchief.com/
-// @match        https://www.meldkamerspel.com/
-// @updateURL    https://github.com/LennardTFD/LeitstellenspielScripte/raw/master/LSS_NextBuildingPrice/nextBuildingPrice.user.js
-// @downloadURL  https://github.com/LennardTFD/LeitstellenspielScripte/raw/master/LSS_NextBuildingPrice/nextBuildingPrice.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -37,6 +33,15 @@
         switch(buildingId)
         {
             case 0:
+                if(buildingAmount <= 23)
+                {
+                    price = 100000;
+                }
+                else
+                {
+                    price = 100000+(200000*Math.log2(buildingAmount-21.997));
+                }
+                break;
             case 5:
                 if(buildingAmount <= 23)
                 {
@@ -44,7 +49,7 @@
                 }
                 else
                 {
-                    price = 100000+(200000*Math.log2(buildingAmount-22));
+                    price = 100000+(200000*Math.log2(buildingAmount-20.9995));
                 }
                 break;
             case 3:
