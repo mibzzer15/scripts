@@ -3,7 +3,7 @@
 // @namespace http://bos-ernie.lss-manager.de
 // @version 0.1
 // @author BOS-Ernie; translated to US by tylernelson224
-// @description Adds a button to each control center in the building list to toggle its status.+
+// @description Adds a button to each control center in the building list to toggle its status.
 // @match https://www.missionchief.com/*
 // @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @run-at document-idle
