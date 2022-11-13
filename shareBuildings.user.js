@@ -1,7 +1,10 @@
 // ==UserScript==
 // @name         shareBuildings
+// @namespace https://github.com/mibzzer15
 // @version      1.1.3
 // @description  automatically releases hospitals and cells in the alliance
+// @downloadURL https://github.com/mibzzer15/scripts/raw/main/shareBuildings
+// @updateURL https://github.com/mibzzer15/scripts/raw/main/shareBuildings
 // @author       DrTraxx and translated by Mibzzer15
 // @match        https://www.missionchief.com/
 // @grant        none
