@@ -19,12 +19,12 @@
     if($('#mission_select_sicherheitswache').length != 0){
         $('#mission_select_sicherheitswache').after(`<div id="missionSpeed" class="btn-group">
                                                       <a id="mspa" class="btn btn-xs btn-success" title="Pause"><div class="glyphicon glyphicon-pause"></div></a>
-                                                      <a id="msfb" class="btn btn-xs btn-success" title="10 Minute"><div class="glyphicon glyphicon-fast-backward"></div></a>
-                                                      <a id="mssb" class="btn btn-xs btn-success" title="7 Minute"><div class="glyphicon glyphicon-step-backward"></div></a>
-                                                      <a id="msb" class="btn btn-xs btn-success" title="5 Minute"><div class="glyphicon glyphicon-backward"></div></a>
-                                                      <a id="mspl" class="btn btn-xs btn-success" title="3 Minute"><div class="glyphicon glyphicon-play"></div></a>
-                                                      <a id="msf" class="btn btn-xs btn-success" title="2 Minute"><div class="glyphicon glyphicon-forward"></div></a>
-                                                      <a id="mssf" class="btn btn-xs btn-success" title="1 Minnute"><div class="glyphicon glyphicon-step-forward"></div></a>
+                                                      <a id="msfb" class="btn btn-xs btn-success" title="10 Minutes"><div class="glyphicon glyphicon-fast-backward"></div></a>
+                                                      <a id="mssb" class="btn btn-xs btn-success" title="7 Minutes"><div class="glyphicon glyphicon-step-backward"></div></a>
+                                                      <a id="msb" class="btn btn-xs btn-success" title="5 Minutes"><div class="glyphicon glyphicon-backward"></div></a>
+                                                      <a id="mspl" class="btn btn-xs btn-success" title="3 Minutes"><div class="glyphicon glyphicon-play"></div></a>
+                                                      <a id="msf" class="btn btn-xs btn-success" title="2 Minutes"><div class="glyphicon glyphicon-forward"></div></a>
+                                                      <a id="mssf" class="btn btn-xs btn-success" title="1 Minute"><div class="glyphicon glyphicon-step-forward"></div></a>
                                                       <a id="msff" class="btn btn-xs btn-success" title="30 Seconds"><div class="glyphicon glyphicon-fast-forward"></div></a>
                                                       <a id="msvf" class="btn btn-xs btn-success" title="20 Seconds"><div class="glyphicon glyphicon-plane"></div></a>
                                                   </div>`);
