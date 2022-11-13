@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Control Center status toggler
-// @namespace http://bos-ernie.lss-manager.de
+// @namespace https://github.com/mibzzer15
 // @version 0.1
 // @author BOS-Ernie; translated to US by tylernelson224
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/DispatchTogglerInBuildingList.user.js
