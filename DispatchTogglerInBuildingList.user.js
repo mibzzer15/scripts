@@ -3,6 +3,8 @@
 // @namespace http://bos-ernie.lss-manager.de
 // @version 0.1
 // @author BOS-Ernie; translated to US by tylernelson224
+// @downloadURL https://github.com/mibzzer15/scripts/raw/main/DispatchTogglerInBuildingList.user.js
+// @updateURL https://github.com/mibzzer15/scripts/raw/main/DispatchTogglerInBuildingList.user.js
 // @description Adds a button to each control center in the building list to toggle its status.
 // @match https://www.missionchief.com/*
 // @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
