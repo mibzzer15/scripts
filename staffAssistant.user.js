@@ -3,6 +3,7 @@
 // @version      1.4.5
 // @description  Select advertising phases and personnel target in the building overview
 // @author       DrTraxx and translated by Mibzzer15
+// @namespace https://github.com/mibzzer15
 // @match        https://*www.missionchief.com/buildings/*
 // @grant        none
 // ==/UserScript==
