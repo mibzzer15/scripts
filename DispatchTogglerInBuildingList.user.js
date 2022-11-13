@@ -9,7 +9,7 @@
 // @match https://www.missionchief.com/*
 // @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @run-at document-idle
-// @grantnone
+
 // ==/UserScript==
 /* global buildingLoadContent */
 (function () {
