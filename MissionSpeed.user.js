@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MissionSpeed
 // @namespace https://github.com/mibzzer15
-// @version      2.1.2
+// @version      2.1.3
 // @description  Allows changes to the mission speed above the mission list.
 // @author      Allure149; translated by tylernelson224, updated by Mibzzer15
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/MissionSpeed
