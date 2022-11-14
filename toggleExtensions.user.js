@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         toggleExtensions
-// @version      1.0.0
+// @version      1.0.1
 // @description  Completely (de)activate extensions of buildings
 // @author       DrTraxx and translate by Mibzzer15
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
