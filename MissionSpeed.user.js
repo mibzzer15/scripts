@@ -8,6 +8,7 @@
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/MissionSpeed
 // @match        https://www.missionchief.com/
 // @updateURL    https://github.com/types140/LSS-Scripte/raw/master/missionspeed.user.js
+// @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @grant        none
 // ==/UserScript==
 /* global $ */
