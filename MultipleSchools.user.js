@@ -5,8 +5,8 @@
 // @author       Allure149; translated by tylernelson224
 // @match        https://*www.missionchief.com/buildings/*
 // @grant        none
-// @updateURL    https://github.com/types140/LSS-Scripte/raw/master/multipleSchools.user.js
-// @downloadURL  https://github.com/types140/LSS-Scripte/raw/master/multipleSchools.user.js
+// @updateURL    https://github.com/mibzzer15/scripts/raw/main/MultipleSchools.user.js
+// @downloadURL  https://github.com/mibzzer15/scripts/raw/main/MultipleSchools.user.js
 // ==/UserScript==
 /* global $ */
 
