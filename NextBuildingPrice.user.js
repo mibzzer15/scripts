@@ -6,6 +6,7 @@
 // @author       Lennard[TFD]; translated by tylernelson224
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/NextBuildingPrice.user.js
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/NextBuildingPrice.user.js
+// @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @match        https://www.missionchief.com/
 // @grant        none
 // ==/UserScript==
