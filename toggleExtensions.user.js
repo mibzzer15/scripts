@@ -3,6 +3,8 @@
 // @version      1.0.0
 // @description  Completely (de)activate extensions of buildings
 // @author       DrTraxx and translate by Mibzzer15
+// @downloadURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
+// @updateURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
 // @match        https://www.missionchief.com/
 // @grant        GM_addStyle
 // ==/UserScript==
