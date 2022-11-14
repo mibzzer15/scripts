@@ -2,6 +2,8 @@
 // @name         destroyVehicles
 // @version      1.0.2
 // @description  send selected vehicles to the scrap heap
+// @downloadURL https://github.com/mibzzer15/scripts/raw/main/destroyVehicles.user.js
+// @updateURL https://github.com/mibzzer15/scripts/raw/main/destroyVehicles.user.js
 // @author       DrTraxx and translate by Mibzzer15
 // @match        https://*www.missionchief.com/buildings/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
