@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MultipleSchools
-// @version      1.0.6
+// @version      1.0.7
 // @description  Use more than 4 classes at once
 // @author       Allure149; translated by tylernelson224
 // @match        https://*www.missionchief.com/buildings/*
