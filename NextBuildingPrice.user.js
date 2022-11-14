@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Next Building Price
-// @namespace    https://www.leitstellenspiel.de/
+// @namespace    https://github.com/mibzzer15
 // @version      1.2
 // @description  Calculates next price of Building
 // @author       Lennard[TFD]; translated by tylernelson224
