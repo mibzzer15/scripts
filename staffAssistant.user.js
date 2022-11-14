@@ -7,6 +7,7 @@
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/staffAssistant.user.js
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/staffAssistant.user.js
 // @match        https://*www.missionchief.com/buildings/*
+// @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @grant        none
 // ==/UserScript==
 /* global $, user_premium */
