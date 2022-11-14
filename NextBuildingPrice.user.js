@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Next Building Price
 // @namespace    https://github.com/mibzzer15
-// @version      1.2
+// @version      1.3
 // @description  Calculates next price of Building
 // @author       Lennard[TFD]; translated by tylernelson224
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/NextBuildingPrice.user.js
