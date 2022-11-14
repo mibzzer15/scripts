@@ -7,6 +7,7 @@
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/shareBuildings
 // @author       DrTraxx and translated by Mibzzer15
 // @match        https://www.missionchief.com/
+// @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @grant        none
 // ==/UserScript==
 /* global $, user_id, I18n */
