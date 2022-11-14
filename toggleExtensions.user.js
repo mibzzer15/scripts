@@ -6,6 +6,7 @@
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
 // @match        https://www.missionchief.com/
+// @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @grant        GM_addStyle
 // ==/UserScript==
 /* global $ */
