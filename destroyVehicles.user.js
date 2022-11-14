@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         destroyVehicles
-// @version      1.0.2
+// @version      1.0.3
 // @description  send selected vehicles to the scrap heap
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/destroyVehicles.user.js
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/destroyVehicles.user.js
@@ -20,7 +20,7 @@
     $("a[href*='/vehicles/new']:first").after(`<a class="btn btn-xs btn-danger" id="dump_vehicles">scrap selected vehicles</a>`);
 
     $("#vehicle_table > thead > tr")
-        .append(`<th data-column="4" class="tablesorter-header sorter-false tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="true" unselectable="on" style="user-select: none;" aria-sort="none">
+        .append(`<th data-column="6" class="tablesorter-header sorter-false tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="true" unselectable="on" style="user-select: none;" aria-sort="none">
                    <div class="tablesorter-header-inner">destroy</div>
                  </th>`);
 
