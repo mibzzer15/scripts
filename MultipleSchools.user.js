@@ -7,6 +7,7 @@
 // @grant        none
 // @updateURL    https://github.com/mibzzer15/scripts/raw/main/MultipleSchools.user.js
 // @downloadURL  https://github.com/mibzzer15/scripts/raw/main/MultipleSchools.user.js
+// @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // ==/UserScript==
 /* global $ */
 
