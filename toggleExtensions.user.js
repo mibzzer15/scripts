@@ -50,7 +50,6 @@
                                 <a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="police_stations">Police Stations</a>
                                 <a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="ems_stations">EMS Stations</a>
 								<a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="federal_stations">Federal Police Stations</a>
-								<a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="dispatch_centers">Dispatch Centers</a>
                             </div>
                         </div>
                         <div class="modal-body" id="toExModalBody">
