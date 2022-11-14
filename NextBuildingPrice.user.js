@@ -3,7 +3,9 @@
 // @namespace    https://www.leitstellenspiel.de/
 // @version      1.2
 // @description  Calculates next price of Building
-// @author       Lennard[TFD]
+// @author       Lennard[TFD]; translated by tylernelson224
+// @downloadURL https://github.com/mibzzer15/scripts/raw/main/NextBuildingPrice.user.js
+// @updateURL https://github.com/mibzzer15/scripts/raw/main/NextBuildingPrice.user.js
 // @match        https://www.missionchief.com/
 // @grant        none
 // ==/UserScript==
