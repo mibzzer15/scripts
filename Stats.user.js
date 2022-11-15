@@ -10,6 +10,8 @@
 // @match           https://www.leitstellenspiel.de/
 // @match           https://www.missionchief.com/
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
+// @downloadURL: https://github.com/mibzzer15/scripts/raw/main/Stats.user.js
+// @updateURL: https://github.com/mibzzer15/scripts/raw/main/Stats.user.js
 // @run-at          document-idle
 // @grant           none
 // ==/UserScript==
