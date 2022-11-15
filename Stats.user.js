@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name            [LSS] Vehicle and building statistics
+// @name            [LSS] Vehicle and Building Statistics
 // @name:de         [LSS] Fahrzeug- und Gebäudestatistik
-// @namespace       http://bos-ernie.lss-manager.de
+// @namespace       https://github.com/mibzzer15
 // @version         1.0.1
 // @description     Select
-// @author          BOS-Ernie
+// @author          BOS-Ernie; translated by tylernelson224
 // @description     Lists the number of buildings and vehicles of each type.
 // @description:de  Listet die Anzahl der Gebäude und Fahrzeuge jeder Art auf.
 // @match           https://www.leitstellenspiel.de/
+// @match           https://www.missionchief.com/
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @run-at          document-idle
 // @grant           none
