@@ -39,7 +39,7 @@
 <div class="modal-dialog" role="document">
     <div class="modal-content">
         <div class="modal-header">
-            <h3 class="modal-title" id="statistics-modal-label"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Fahrzeug- und Gebäudestatistik</h5>
+            <h3 class="modal-title" id="statistics-modal-label"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Vehicle & Building Statistics</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">    
                 <span aria-hidden="true">&times;</span>
             </button>   
@@ -48,8 +48,8 @@
             <div>
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#vehicle-types-panel" aria-controls="vehicle-types-panel" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-knight" aria-hidden="true"></span> Fahrzeuge</a></li>
-                    <li role="presentation"><a href="#buildings-panel" aria-controls="buildings-panel" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Gebäude</a></li>
+                    <li role="presentation" class="active"><a href="#vehicle-types-panel" aria-controls="vehicle-types-panel" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-knight" aria-hidden="true"></span> Vehicles</a></li>
+                    <li role="presentation"><a href="#buildings-panel" aria-controls="buildings-panel" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Buildings</a></li>
                     <li role="presentation"><a href="#export-panel" aria-controls="export-panel" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-export" aria-hidden="true"></span> Export</a></li>
                 </ul>
                 <!-- Tab panes -->
@@ -104,7 +104,7 @@
     .parentElement.parentElement.append(divider);
   const li = document.createElement("li");
   li.innerHTML =
-    '<a href="javascript: void(0)" id="statistics-button"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Fahrzeug- und Gebäudestatistik</a>';
+    '<a href="javascript: void(0)" id="statistics-button"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Vehicle & Building Statistics</a>';
   document
     .getElementById("logout_button")
     .parentElement.parentElement.append(li);
@@ -113,7 +113,7 @@
   async function generateStatistic() {
     $("#statistics-modal").modal("show");
 
-    const vehicles = fetch("https://www.leitstellenspiel.de/api/vehicles").then(
+    const vehicles = fetch("https://www.missionchief.com/api/vehicles").then(
       (response) => response.json()
     );
     await vehicles;
@@ -136,7 +136,7 @@
 
       // Render vehicle types as HTML table
       const tableHead = document.createElement("thead");
-      tableHead.innerHTML = "<tr><th>Name</th><th>Anzahl</th></tr>";
+      tableHead.innerHTML = "<tr><th>Unit:</th><th>Quantity:</th></tr>";
 
       const table = document.createElement("table");
       table.setAttribute(
@@ -164,38 +164,44 @@
       for (const vehicleType in orderedVehicleTypes) {
         exportString += `${orderedVehicleTypes[vehicleType].name}: ${orderedVehicleTypes[vehicleType].count}\n`;
       }
-      document.getElementById("export-textarea").value = "Fahrzeuge\n";
+      document.getElementById("export-textarea").value = "Vehicles\n";
       document.getElementById("export-textarea").value +=
         "=====================\n";
       document.getElementById("export-textarea").value += exportString;
     });
 
     const buildingTypeNames = {
-      7: "Leitstelle",
-      0: "Feuerwache",
-      18: "Feuerwache (Kleinwache)",
-      1: "Feuerwehrschule",
-      2: "Rettungswache",
-      20: "Rettungswache (Kleinwache)",
-      3: "Rettungsschule",
-      4: "Krankenhaus",
-      5: "Rettungshubschrauber-Station",
-      12: "Schnelleinsatzgruppe (SEG)",
-      6: "Polizeiwache",
-      19: "Polizeiwache (Kleinwache)",
-      11: "Bereitschaftspolizei",
-      17: "Polizei-Sondereinheiten",
-      13: "Polizeihubschrauberstation",
-      8: "Polizeischule",
-      9: "THW",
-      10: "THW Bundesschule",
-      14: "Bereitstellungsraum",
-      15: "Wasserrettung",
-      21: "Rettungshundestaffel",
+      1: "Dispatch Center",
+      0: "Fire Station",
+      18: "Federal Police Station",
+      7: "Police Academy",
+      2: "Hospital",
+      20: "Large Complex",
+      3: "Ambulance Station",
+      4: "Fire Academy",
+      5: "Police Station",
+      12: "Rescue Boat Dock",
+      6: "HEMS Station",
+      19: "Rescue (EMS) Academy",
+      11: "Fire Boat Dock",
+      17: "Firefighting Plane Station",
+      13: "Fire Station (Small)",
+      8: "Police Aviation",
+      9: "Staging Area",
+      10: "Prison",
+      14: "Clinic",
+      15: "Police Station (Small)",
+      21: "Small Complex",
+      16: "Ambulance Station (Small)",
+      22: "Fire Marshal's Office",
+      23: "Coastal Rescue Station",
+      24: "Coastal Rescue School",
+      25: "Coastal Air Station",
+      26: "Lifeguard Post",
     };
 
     const buildings = fetch(
-      "https://www.leitstellenspiel.de/api/buildings"
+      "https://www.missionchief.com/api/buildings"
     ).then((response) => response.json());
     await buildings;
     buildings.then((result) => {
@@ -218,7 +224,7 @@
 
       // Render buildings as HTML table
       const tableHead = document.createElement("thead");
-      tableHead.innerHTML = "<tr><th>Name</th><th>Anzahl</th></tr>";
+      tableHead.innerHTML = "<tr><th>Type:</th><th>Quantity:</th></tr>";
 
       const table = document.createElement("table");
       table.setAttribute(
@@ -246,7 +252,7 @@
       for (const buildingType in orderedBuildings) {
         exportString += `${orderedBuildings[buildingType].name}: ${orderedBuildings[buildingType].count}\n`;
       }
-      document.getElementById("export-textarea").value += "\n\nGebäude\n";
+      document.getElementById("export-textarea").value += "\n\nBuilding\n";
       document.getElementById("export-textarea").value +=
         "=====================\n";
       document.getElementById("export-textarea").value += exportString;
