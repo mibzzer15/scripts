@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Staff Assistant
-// @version      1.4.6
+// @version      1.4.7
 // @description  Select advertising phases and personnel target in the building overview
 // @author       DrTraxx and translated by Mibzzer15
 // @namespace https://github.com/mibzzer15
