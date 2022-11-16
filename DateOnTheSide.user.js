@@ -3,7 +3,9 @@
 // @version      1.0.2
 // @description  Displays creation date/time of a mission in the missionlist. 
 // @author       HerrWaldgott; translated by tylernelson224
-// @match      *://www.missionchief.com/
+// @match        *://www.missionchief.com/
+// @downloadURL  https://github.com/mibzzer15/scripts/raw/main/DateOnTheSide.user.js
+// @updateURL    https://github.com/mibzzer15/scripts/raw/main/DateOnTheSide.user.js
 // @grant        none
 // @namespace    https://github.com/mibzzer15
 // ==/UserScript==
