@@ -31,8 +31,8 @@
                    <a id="hire_do_1" class="btn btn-default btn-xs" style="display:${ !hire ? `inline` : `none` }">1 Day</a>
                    <a id="hire_do_2" class="btn btn-default btn-xs" style="display:${ !hire ? `inline` : `none` }">2 Days</a>
                    <a id="hire_do_3" class="btn btn-default btn-xs" style="display:${ !hire ? `inline` : `none` }">3 Days</a>
-                   <a id="hire_do_0" class="btn btn-danger btn-xs" style="display:${ hire ? `inline` : `none` }">cancel the setting phase</a>
-                   <a id="hire_do_automatic" class="btn btn-default btn-xs" style="display:${ user_premium && !hire ? `inline` : `none` }">automatically</a>
+                   <a id="hire_do_0" class="btn btn-danger btn-xs" style="display:${ hire ? `inline` : `none` }">Cancel the recruitment phase</a>
+                   <a id="hire_do_automatic" class="btn btn-default btn-xs" style="display:${ user_premium && !hire ? `inline` : `none` }">Automatically</a>
                    <input class="numeric integer optional form-control" type="number" value="${ building.personal_count_target }" id="setPersonal" style="width:5em;height:22px">
                    <a id="savePersonal" class="btn btn-success btn-xs">Save</a>
                  </div>`);
