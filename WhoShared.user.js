@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WhoShared
-// @version      1.0.1
+// @version      1.0.2
 // @description  Shows who shared the mission. Search function then also searches for names.
 // @author       HerrWaldgott; translated by tylernelson224
 // @match      *://www.missionchief.com/
