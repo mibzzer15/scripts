@@ -8,6 +8,7 @@
 // @updateURL    https://github.com/mibzzer15/scripts/raw/main/WhoShared.user.js
 // @grant        none
 // @namespace    https://github.com/mibzzer15
+
 // ==/UserScript==
 
 (function() {
