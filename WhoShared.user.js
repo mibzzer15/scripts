@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WhoShared
-// @version      1.0.2
+// @version      1.0.3
 // @description  Shows who shared the mission. Search function then also searches for names.
 // @author       HerrWaldgott; translated by tylernelson224
 // @match      *://www.missionchief.com/
@@ -14,7 +14,7 @@
 (function() {
     'use strict';
 
-    $('#mission_list_alliance > .missionSideBarEntry, #mission_list_alliance_event > .missionSideBarEntry').each(async function(){
+    $('#mission_list_sicherheitswache > .missionSideBarEntry, #mission_list_krankentransporte > .missionSideBarEntry, #mission_list > .missionSideBarEntry, #mission_list_alliance > .missionSideBarEntry, #mission_list_alliance_event > .missionSideBarEntry').each(async function(){
         var $this = $(this);
         var $attributes = $this[0].attributes;
         var missionId = +($attributes).mission_id.value;
