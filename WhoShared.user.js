@@ -2,8 +2,10 @@
 // @name         WhoShared
 // @version      1.0.1
 // @description  Shows who shared the mission. Search function then also searches for names.
-// @author       HerrWaldgott
+// @author       HerrWaldgott; translated by tylernelson224
 // @include      *://www.missionchief.com/
+// @downloadURL  https://github.com/mibzzer15/scripts/raw/main/WhoShared.user.js
+// @updateURL    https://github.com/mibzzer15/scripts/raw/main/WhoShared.user.js
 // @grant        none
 // @namespace    https://github.com/mibzzer15
 // ==/UserScript==
