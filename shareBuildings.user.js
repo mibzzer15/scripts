@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         shareBuildings
 // @namespace https://github.com/mibzzer15
-// @version      1.1.4
+// @version      1.1.5
 // @description  automatically releases hospitals and cells in the alliance
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/shareBuildings
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/shareBuildings
@@ -42,7 +42,7 @@
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&#x274C;</span>
                           </button>
-                          <h3 class="modal-title"><center>release buildings</center></h3>
+                          <h3 class="modal-title"><center>Release Buildings</center></h3>
                         </div>
                           <div class="modal-body" id="shBuModalBody">
                             <div class="form-check hidden">
@@ -62,8 +62,8 @@
                             <br>
                             <br>
                             <div class="btn-group">
-                              <a class="btn btn-primary" id="shBuShareCells">police stations</a>
-                              <a class="btn btn-primary" id="shBuShareHospitals">hospitals</a>
+                              <a class="btn btn-primary" id="shBuShareCells">Police Stations</a>
+                              <a class="btn btn-primary" id="shBuShareHospitals">Hospitals</a>
                             </div>
                             <br>
                             <br>
@@ -81,7 +81,7 @@
                             </div>
                           </div>
                           <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Conclude</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             <div class="pull-left">v ${GM_info.script.version}</div>
                           </div>
                     </div>
