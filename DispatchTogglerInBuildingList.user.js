@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Control Center status toggler
 // @namespace https://github.com/mibzzer15
-// @version 0.1
+// @version 1.2
 // @author BOS-Ernie; translated to US by tylernelson224
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/DispatchTogglerInBuildingList.user.js
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/DispatchTogglerInBuildingList.user.js
