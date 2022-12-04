@@ -7,6 +7,7 @@
 // @updateURL https://github.com/mibzzer15/scripts/raw/main/DispatchTogglerInBuildingList.user.js
 // @description Adds a button to each control center in the building list to toggle its status.
 // @match https://www.missionchief.com/*
+// @match https://www.police.missionchief.com/*
 // @icon https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
 // @run-at document-idle
 
