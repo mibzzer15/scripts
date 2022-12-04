@@ -52,7 +52,7 @@
   addToggleButtons();
   function createStatusButtonGroup(buildingId, status) {
     const href =
-      "https://www.*.missionchief.com/buildings/" + buildingId + "/active";
+      "https://www.missionchief.com/buildings/" + buildingId + "/active";
     // Assign listener to variable
     const listener = (e) => {
       e.preventDefault();
