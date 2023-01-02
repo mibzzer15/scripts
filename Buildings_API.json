@@ -215,5 +215,36 @@
         ],
     "id": 1,
     "name": "Dispatch Center"
-    }
+    },
+        {
+    "class":
+        [
+        "firefighting_plane_stations"
+        ],
+    "class_alias":
+        [
+        "Firefighting Plane Stations"
+        ],
+    "extensions":
+        [
+            {
+            "id": 0,
+            "name": "Wildland Air Command Extension"
+            },
+            {
+            "id": 1,
+            "name": "Smoke Jumper Extension"
+            },
+            {
+            "id": 2,
+            "name": "2nd Smoke Jumper Team"
+            },
+            {
+            "id": 3,
+            "name": "3rd Smoke Jumper Team"
+            }
+        ],
+    "id": 17,
+    "name": "Firefighting Plane station"
+    },
 ]
