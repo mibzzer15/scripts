@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         toggleExtensions
-// @version      1.0.1
+// @version      1.0.2
 // @description  Completely (de)activate extensions of buildings
 // @author       DrTraxx and translate by Mibzzer15
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
@@ -53,7 +53,10 @@
                                 <a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="police_stations">Police Stations</a>
                                 <a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="ems_stations">EMS Stations</a>
 								<a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="federal_stations">Federal Police Stations</a>
-                            </div>
+                              </div>
+                            <div class="btn-group" style="display:flex;">
+                                <a class="btn btn-xs btn-success to_ex_choose" style="flex:1;" target="firefighting_plane_stations">Firefighting Plane Stations</a>
+                              </div>
                         </div>
                         <div class="modal-body" id="toExModalBody">
                         </div>
