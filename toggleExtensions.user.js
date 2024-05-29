@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         toggleExtensions
-// @version      1.0.2
+// @version      1.0.3
 // @description  Completely (de)activate extensions of buildings
 // @author       DrTraxx and translate by Mibzzer15
 // @downloadURL https://github.com/mibzzer15/scripts/raw/main/toggleExtensions.user.js
@@ -68,7 +68,7 @@
                 </div>
             </div>`);
 
-    $("ul .dropdown-menu[aria-labelledby='menu_profile'] >> a[href='/missionSpeed']")
+    $("ul .dropdown-menu[aria-labelledby='menu_profile'] >> a[href='/vehicle_graphics']")
         .parent()
         .after(`<li role="presentation">
                     <a data-toggle="modal" data-target="#toExModal" style="cursor:pointer" id="toExOpenModal">
